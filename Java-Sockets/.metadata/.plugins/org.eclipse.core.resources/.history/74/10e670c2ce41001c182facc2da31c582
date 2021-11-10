@@ -1,0 +1,9 @@
+package com.socket.example;
+
+import java.net.ServerSocket;
+
+public class MyServer {
+	public static void main(String[] args) {
+		ServerSoket ss = new ServerSocket(8888);
+	}
+}
