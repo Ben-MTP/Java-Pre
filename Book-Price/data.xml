@@ -1,0 +1,120 @@
+<?xml version = "1.0"?>
+<class>
+	<book id="1">
+		<isbn>TV10</isbn>
+		<name>Java</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="2">
+		<isbn>TV12</isbn>
+		<name>C++</name>
+		<price>2000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="3">
+		<isbn>TV13</isbn>
+		<name>C#</name>
+		<price>4000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="4">
+		<isbn>TV14</isbn>
+		<name>PHP</name>
+		<price>890</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="5">
+		<isbn>TV15</isbn>
+		<name>Ruby</name>
+		<price>555</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="6">
+		<isbn>TV16</isbn>
+		<name>R</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="7">
+		<isbn>TV17</isbn>
+		<name>Python</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="8">
+		<isbn>TV18</isbn>
+		<name>.Net</name>
+		<price>4343</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="9">
+		<isbn>TV19</isbn>
+		<name>SQL</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="10">
+		<isbn>TV20</isbn>
+		<name>JavaScript</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="11">
+		<isbn>TV21</isbn>
+		<name>Angular</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="12">
+		<isbn>TV22</isbn>
+		<name>Spring</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+	<book id="13">
+		<isbn>TV23</isbn>
+		<name>Spring Boot</name>
+		<price>1000</price>
+		<category>Love</category>
+		<publish>VNU</publish>
+		<totalpages>100</totalpages>
+		<author>Gio</author>
+	</book>
+</class>

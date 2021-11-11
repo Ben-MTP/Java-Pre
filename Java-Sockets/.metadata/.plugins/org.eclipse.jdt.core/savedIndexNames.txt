@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+E:\1_CODING\LearnJava\Java-Pre\Java-Sockets\.metadata\.plugins\org.eclipse.jdt.core
-2867191265.index
