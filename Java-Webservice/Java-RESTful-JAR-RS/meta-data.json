@@ -1,0 +1,9 @@
+{
+  "personnel": {
+   "person": [
+     {"name": "Boss"},
+     {"name": "Worker"}
+   ]
+ },
+ "id":"personnel-id"
+}
