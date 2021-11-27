@@ -1,0 +1,73 @@
+1. Tìm hiểu về WebService --> OK
+	1 Web service – Dịch vụ web là gì?
+	2 Các thành phần của web service
+		2.1 XML – eXtensible Markup Language
+		2.2 WSDL – Web Service Description Language
+		2.3 Universal Description, Discovery, and Integration (UDDI)
+		2.4 SOAP – Simple Object Access Protocol
+	3 Web Services Architecture
+	4 Web service hoạt động như thế nào?
+	5 Các loại Web service
+		5.1 SOAP Web Service là gì?
+		5.2 RESTful web service là gì?
+		5.2.1 Sử dụng các phương thức HTTP một cách rõ ràng
+		5.2.2 Phi trạng thái (Stateless)
+		5.2.3 Đưa ra cấu trúc thư mục giống các URI
+		5.2.4 Truyền tải XML, JSON hoặc cả hai
+		5.3 Sự khác nhau giữa REST và SOAP
+		5.4 Lý do sử dụng REST thay vì SOAP?
+		5.5 Lý do sử dụng SOAP?
+	6 Một số bài viết về Web service
+
+
+2. Java Web Service - JAX-WS - SOAP --> OK
+	1. Tại sao lại phải tạo project dynamic web?
+	
+	2. Tạo project client SOAP WebService
+	
+	3. Tạo project server SOAP WebService
+	
+
+3. Giới thiệu SOAP UI và thực hiện test webservice. --> OK
+
+4. SOAP Web Service: Authentication trong JAX-WS
+
+5. SOAP Web Service: Upload và Download file sử dụng MTOM trong JAX-WS
+
+6. Java Web Service: Jersey JAX-WR - REST và sử dụng REST API testing tools với Postman
+	1. Tại sao lại sử dụng Dynamic Web lần đầu cho việc tạo project
+	
+	2. Sau đó lại convert ngược lại thành project Maven.
+	
+	Lý do: Nếu là project Maven -> thì có thể deploy thành gói jar -> hoặc chỉ định hàm main -> chạy project
+	Khi create từ Dynamic web -> có thể deploy lên tomcat để chạy với port xác định từ trước.
+	
+	Vậy thì kết luận như này -> đối với SOAP-API thì hay dùng với Tool SOAP UI
+	Đối với REST-API thì dùng vói Postman để kiểm tra.
+	
+	Tool SOAP UI cũng có thể test được REST-API nhưng thấy đánh giá không hiệu quả cho lắm.
+	
+
+
+
+7. REST Web Service: Tạo ứng dụng Java RESTful Client với Jersey Client 2.x
+8. REST Web Service: Upload và download file với Jersey 2.x
+9. REST Web service: HTTP Status Code và xử lý ngoại lệ RESTful web service với Jersey 2.x
+10. Rest Web service: Filter và Interceptor với Jersey 2.x (P1)
+11. Rest Web service: Filter và Interceptor với Jersey 2.x (P2)
+12. Tìm hiểu về xác thực và phân quyền trong ứng dụng
+13. REST Web service: Basic Authentication trong Jersey 2.x
+14. Giới thiệu Json Web Token (JWT)
+15. REST Web service: JWT – Token-based Authentication trong Jersey 2.x
+16. Tạo ứng dụng Java RESTful Client không sử dụng 3rd party libraries
+17. Tạo ứng dụng Java RESTful Client với thư viện OkHttp
+18. Tạo ứng dụng Java RESTful Client với thư viện Retrofit
+19. Giới thiệu Feign – Tạo ứng dụng Java RESTful Client không thể đơn giản hơn
+20. Giới thiệu HATEOAS
+21. Giới thiệu Swagger – Công cụ document cho RESTfull APIs
+22. Cài đặt và sử dụng Swagger UI
+23. Sử dụng Swagger UI trong jersey REST WS project
+24. Làm thế nào để Test Jersey Rest API với JUnit?
+25. Test REST Web Service đơn giản hơn với REST Assured
+26. Triển khai ứng dụng Jersey REST Web service lên Tomcat Server
+27. Giới thiệu Castle Mock – Mock REST APIs và SOAP web-services
