@@ -23,10 +23,10 @@
 
 ## Tham khảo:
 
-1. Java Web Service - JAX-WS - SOAP
-https://gpcoder.com/5615-java-web-services-jax-ws-soap/
-
-
-2. Giới thiệu SOAP UI và thực hiện test Web Service
-https://gpcoder.com/5650-gioi-thieu-soap-ui-va-thuc-hien-test-web-service/
+	1. Java Web Service - JAX-WS - SOAP
+	https://gpcoder.com/5615-java-web-services-jax-ws-soap/
+	
+	
+	2. Giới thiệu SOAP UI và thực hiện test Web Service
+	https://gpcoder.com/5650-gioi-thieu-soap-ui-va-thuc-hien-test-web-service/
 

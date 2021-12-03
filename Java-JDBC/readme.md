@@ -25,6 +25,16 @@
     1. Create Database
     2. Create Table class
     3. Create Table student
+    4. Create Function in MySQL
+        Nếu có lỗi về: "Error Code: 1418. This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled"
+        Cách sử lý: 
+            Execute the following in the MySQL console:
+
+            SET GLOBAL log_bin_trust_function_creators = 1;
+            
+            Add the following to the mysql.ini configuration file:
+            
+            log_bin_trust_function_creators = 1;
 
 ## Thiết lập kết nối giữa ứng dụng Java với Database
     1. Interface DriverManager
