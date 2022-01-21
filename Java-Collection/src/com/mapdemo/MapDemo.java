@@ -18,6 +18,5 @@ public class MapDemo {
         for (Map.Entry m: mapDemo.entrySet()) {
             System.out.println(m.getKey() +" - "+ m.getValue());
         }
-
     }
 }

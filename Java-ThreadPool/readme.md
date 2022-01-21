@@ -1,48 +1,103 @@
 ## Concept:
-1. Thread và xử lý đa luồng trong Java
+1. Lập trình đa luồng trong Java (Java Multi-threading)
 
-2. Kiến thức nâng cao - ThreadPoolExecutor
+	1.4. Nhược điểm của đa luồng
+		tránh các luồng chết - dead lock.
+		Deadlock xảy ra khi 2 tiến trình đợi nhau -> không tiến trình bào hoàn thành -> chết cả 2.
+		
+	3. Cách tạo luồng trong Java
+	extend from class Thread
+	implement from interface Runnable
+		-> Phân biệt try-catch, try-catch-finnaly, try-finnaly.
+		
+		3.1. Tạo luồng bằng cách extend từ lớp Thread
+		
+		
+		3.2. Tạo luồng bằng cách implement từ Interface Runnable:
+		
+		
+		3.4. Ví dụ minh họa sử dụng đa luồng
+			3.4.1. Ví dụ tạo luồng bằng cách Extend từ class Thread
+			
+			3.4.2. Ví dụ tạo luồng bằng cách Impelement từ Interface Runnable
+			
+			
+	4. Các phương thức của lớp Thread thường hay sử dụng
+	
+	
+	5. Một số thông tin liên quan đến luồng
+		5.1. Định danh của luồng (ThreadId)
+		
+		
+		5.2. Tên của luồng (ThreadName)
+		
+		
+		5.3. Độ ưu tiên của luồng (Priority)
+		
+		
+		5.4. Ví dụ
+		
+		
+	6. Sử dụng phương thức sleep()
+	
+	
+	
+	7. Sử dụng join() và join (long)
+	
+	
+	8. Xử lý ngoại lệ cho Thread
+	
+	
+	
+	
+	
 
-10.3.9.63:1521
-select * from SHOP_STOCK;
-select * from STOCK_GOOD_SERIAL;
-
-SELECT b.center_code, COUNT (b.center_code) total    
-FROM stock_good_serial a, shop_stock b   
-WHERE a.stock_id = b.stock_id AND a.serial >= '8401020601718426' AND a.serial<= '8401020601718499'
-GROUP BY b.center_code;
+2. Luồng Daemon (Daemon Thread) trong Java
 
 
-## Schema
-Table theo schema
-Hiện table theo schema
+3. Đồng bộ hóa các luồng trong Java
 
 
-## Function
-public boolean validBHTT(String strCTKV, String from_sernum, String to_sernum) throws Exception {
-    ResultSet rsCheck = null;
-    PreparedStatement stmtCheck = null;
-    boolean blnValidate = false;
-    try {
-      String strSQL_Check = " SELECT b.center_code, COUNT (b.center_code) total    FROM sm_owner.stock_good_serial@db_lnk_bhtt a, shop_stock@db_lnk_bhtt b   WHERE     a.stock_id = b.stock_id         AND serial >= '" + 
-        
-        from_sernum + "' AND serial<= '" + to_sernum + "' " + 
-        " GROUP BY b.center_code ";
-      stmtCheck = this.mcnMain.prepareStatement(strSQL_Check);
-      rsCheck = stmtCheck.executeQuery();
-      while (rsCheck.next()) {
-        String strCENTER_CODE = rsCheck.getString("center_code");
-        if (strCTKV.indexOf(strCENTER_CODE) > 0) {
-          blnValidate = true;
-          continue;
-        } 
-        blnValidate = false;
-        break;
-      } 
-      return blnValidate;
-    } catch (Exception ex1) {
-      ex1.printStackTrace();
-      throw ex1;
-    } 
-  }
-  
+
+4. Hướng dẫn tạo và sử dụng Thread Pool trong Java
+
+
+
+5. Lập trình đa luồng với Callable và Future trong Java
+
+
+
+6. Sử dụng Fork/Join Framework với ForkJoinPool trong Java
+
+
+
+7. Sử dụng CountDownLatch trong Java
+
+
+
+8. Sử dụng CyclicBarrier trong Java
+
+
+
+9. Lập trình đa luồng với CompletableFuture trong Java 8
+
+
+
+10. Thực thi nhiều tác vụ cùng một lúc như thế nào trong Java?
+
+
+
+11. Semephore trong Java
+
+
+
+12*. Vấn đề Nhà sản xuất (Producer) - Người tiêu dùng (Consumer) và đồng bộ hóa các luồng trong Java. 
+
+
+
+## Reference Document
+1. Multi-thread
+	https://gpcoder.com/category/java-core/multi-thread/
+	
+	
+2. 
