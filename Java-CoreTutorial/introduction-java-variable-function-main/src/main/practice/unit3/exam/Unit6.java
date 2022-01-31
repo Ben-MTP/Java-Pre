@@ -11,9 +11,8 @@ import java.util.*;
  */
 public class Unit6 {
     public static void main(String[] args) {
-        List<Integer> listValue = new ArrayList<>(
-                Arrays.asList(11,11,11,32,32,32,32,32,32,32,32,32,32,32,43,54,65,43,231,43,54,32,21,432,43,54,65,6757,6,56454,54,2332)
-        );
+        List<Integer> listValue = Arrays.asList(11,11,11,32,32,32,32,32,32,32,32,32,32,32,43,54,65,43,231,
+                43,54,32,21,432,43,54,65,6757,6,56454,54,2332);
 
         /**
          * Sử dụng method add trong Set

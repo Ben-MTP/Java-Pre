@@ -24,5 +24,8 @@ public class MapTest {
             System.out.println(x.getKey());
             System.out.println(x.getValue());
         }
+
+        listMap.clear();
+        System.out.println(listMap);
     }
 }
