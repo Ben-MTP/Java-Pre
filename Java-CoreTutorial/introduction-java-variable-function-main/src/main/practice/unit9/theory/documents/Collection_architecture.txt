@@ -1,0 +1,43 @@
+Collection
+	-> int size();
+		Trả về kích thước của Collection đó
+		
+	-> boolean isEmpty();
+		Trả về xem Collection đó có trống hay không
+		true -> nó bị trống
+		false -> nó không bị trống
+		
+	-> boolean contains(Object o);
+		Kiểm tra xem Collection này có chứa phần tử Object hay không?
+		
+	-> Iterator<E> iterator();
+		xxx chưa dùng đến
+		
+	-> Object[] toArray();
+		Nó sẽ trả về một mảng chứa toàn bộ các phần tử trong Collection đó.
+		
+	-> <T> T[] toArray(T[] a);
+		xxx chưa dùng đến
+		
+	-> boolean add(E e);
+		Thêm phần tử vào Collection
+		
+	-> boolean remove(Object o);
+		Xóa bỏ phần tử trong Collection
+		
+	-> boolean containsAll(Collection<?> c);
+		Chứa toàn bộ các phần tử trong Collection hay không?
+		
+	-> boolean addAll(Collection<? extends E> c);
+		Xóa bỏ toàn bộ các element có trong Collection được chỉ định trong Collection gốc
+		
+	-> boolean removeAll(Collection<?> c);
+	-> default boolean removeIf(Predicate<? super E> filter)
+	-> boolean retainAll(Collection<?> c);
+	-> void clear();
+	-> boolean equals(Object o);
+	-> int hashCode();
+	-> default Spliterator<E> spliterator()
+	-> default Stream<E> stream()
+	-> default Stream<E> parallelStream()
+	

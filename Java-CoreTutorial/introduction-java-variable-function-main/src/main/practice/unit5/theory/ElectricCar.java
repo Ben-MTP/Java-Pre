@@ -5,4 +5,8 @@ package main.practice.unit5.theory;
  * @project introduction-java-variable-function-main
  */
 public class ElectricCar extends  Car{
+    @Override
+    public void run() {
+        System.out.println("I'm surfing!!!");
+    }
 }
