@@ -10,35 +10,22 @@ import java.util.List;
 public class JavaSynchronized {
     public static void main(String[] args) throws Exception {
 
-        // Mảng chứa những giá trị kiểu Integer
-        List<Integer> ints = new ArrayList<>();
-
         // Calculation -> chứa các method tính toán -> increase
         Calculation c = new Calculation();
 
         new Thread(() -> {
-            System.out.println("Khởi tạo giá trị trong thread_1");
-            try{
-                Thread.sleep(1000);
-                for (Integer i: new ArrayList<>(ints)) {
-                    Thread.sleep(1);
-                    System.out.println("Value of thread_1: " + i);
-                }
-
-            } catch (Exception e) {
-                e.printStackTrace();
+            for (int i = 0; i < 100000000; i++) {
+                c.increase();
             }
         }).start();
 
         new Thread(() -> {
-            System.out.println("Khởi tạo giá trị trong thread_2");
-            for (int i = 0; i < 100; i++) {
-                ints.add(i);
-                System.out.println("Add value into list: " + i);
+            for (int i = 0; i < 100000000; i++){
+                c.increase();
             }
         }).start();
 
-        Thread.sleep(1000);
+        Thread.sleep(100000);
         System.out.println("Giá trị ban đầu của Calculation: "+c.x);
     }
 }
@@ -49,7 +36,7 @@ public class JavaSynchronized {
  */
 class Calculation{
     int x;
-    public void increase(){
+    public synchronized void increase(){
         x++;
     }
 }
