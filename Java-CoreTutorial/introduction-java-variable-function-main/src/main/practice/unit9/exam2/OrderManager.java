@@ -40,10 +40,12 @@ public class OrderManager {
 
         System.out.println("2. Tổng giá trị của Order: " + totalValueOfOrder);
 
-        Optional<Order> max = listOrder.stream().max(Comparator.comparingDouble(p -> p.getTotalValue()));
+        Optional<Order> max = listOrder.stream()
+                .max(Comparator.comparingDouble(p -> p.getTotalValue()));
         System.out.println("3. Order có giá trị lớn nhất trong list: " + max.get().getId() + " - " + max.get().getTotalValue());
 
-        Optional<Order> min = listOrder.stream().min(Comparator.comparingDouble(p -> p.getTotalValue()));
+        Optional<Order> min = listOrder.stream()
+                .min(Comparator.comparingDouble(p -> p.getTotalValue()));
         System.out.println("4. Order có giá trị nhỏ nhất trong list: " + min.get().getId() + " - " + min.get().getTotalValue());
     }
 

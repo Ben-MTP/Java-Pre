@@ -14,18 +14,18 @@ public class JavaSynchronized {
         Calculation c = new Calculation();
 
         new Thread(() -> {
-            for (int i = 0; i < 100000000; i++) {
+            for (int i = 0; i < 100000; i++) {
                 c.increase();
             }
         }).start();
 
         new Thread(() -> {
-            for (int i = 0; i < 100000000; i++){
+            for (int i = 0; i < 100000; i++){
                 c.increase();
             }
         }).start();
 
-        Thread.sleep(100000);
+        Thread.sleep(10000);
         System.out.println("Giá trị ban đầu của Calculation: "+c.x);
     }
 }
@@ -33,10 +33,11 @@ public class JavaSynchronized {
 /**
  * Class Calculation
  * + Method increase -> tăng giá lên 1
+ * apply: synchronized
  */
 class Calculation{
     int x;
-    public synchronized void increase(){
+    public void increase(){
         x++;
     }
 }
