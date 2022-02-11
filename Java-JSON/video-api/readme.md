@@ -1,5 +1,11 @@
 ## Hoàn thành việc tạo các API thao tác với BasicVideo.
 
+# URL H2 Database
+    http://localhost:8080/h2-console
+    user: sa
+    pass: trống
+
+
 # Create
 ![img.png](img.png)
 
