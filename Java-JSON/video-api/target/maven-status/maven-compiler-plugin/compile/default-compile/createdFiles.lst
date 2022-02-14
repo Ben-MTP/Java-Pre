@@ -1,6 +1,0 @@
-techvid\model\BasicVideo.class
-techvid\model\Video.class
-techvid\repository\VideoRepository.class
-techvid\Application.class
-techvid\controller\VideoController.class
-techvid\model\BaseEntity.class
