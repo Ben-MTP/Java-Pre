@@ -1,0 +1,3 @@
+2022-02-14 15:31:43 PM INFO  [main] com.business.BusinessA.<init> : Info From BusinessA
+2022-02-14 15:31:43 PM WARN  [main] com.business.BusinessA.<init> : Warn From BusinessA
+2022-02-14 15:31:43 PM ERROR [main] com.business.BusinessA.<init> : Error From BusinessA
