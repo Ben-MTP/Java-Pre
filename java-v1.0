@@ -16,6 +16,7 @@ Nên học ngôn ngữ lập trình nào? Nên chọn IDE nào cho lập trình 
 [Java] Phần 15 – Lợi ích của Cache và cách sử dụng Redis cache trong ứng dụng Java
 	https://www.youtube.com/watch?v=a2RjtpXoWjA&t
 [Java] Phần 16 – Tạo tiến trình chạy ngầm cực kỳ đơn giản với Spring Schedule
+	Giữ phím ALT + chuột đến vùng cần chọn
+	Format auto: CTRL + ALT + L
 
-
-
+[Java] Phần 17 – Xác thực và phân quyền API bằng JWT và Spring Security [1/2]
