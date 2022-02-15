@@ -25,3 +25,6 @@
 2022-02-14 16:37:47 PM INFO  [main] com.business.BusinessA.<init> : Info From BusinessA
 2022-02-14 16:37:47 PM WARN  [main] com.business.BusinessA.<init> : Warn From BusinessA
 2022-02-14 16:37:47 PM ERROR [main] com.business.BusinessA.<init> : Error From BusinessA
+2022-02-14 16:39:36 PM INFO  [main] com.business.BusinessA.<init> : Info From BusinessA
+2022-02-14 16:39:36 PM WARN  [main] com.business.BusinessA.<init> : Warn From BusinessA
+2022-02-14 16:39:36 PM ERROR [main] com.business.BusinessA.<init> : Error From BusinessA
