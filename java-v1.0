@@ -8,6 +8,24 @@
 [Java] Phần 8: Tìm hiểu về Java Reflection
 [Java] Phần 9: Tạo Annotation bằng Java Reflection
 [Java] Phần 10: So sánh Array vs ArrayList vs LinkedList vs Vector
+[Java] Phần 11: Constant và các rủi ro tiềm ẩn
+Nên học ngôn ngữ lập trình nào? Nên chọn IDE nào cho lập trình Java?
+[Java] Phần 12 – Log 1: Tầm quan trọng của ghi log trong phát triển phần mềm
+[Java] Phần 13 – Log 2: Tích hợp log4j vào phần mềm
+[Java] Phần 14 – Log 3: Ghi log bất đồng bộ vào Database sử dụng ExecutorService
+[Java] Phần 15 – Lợi ích của Cache và cách sử dụng Redis cache trong ứng dụng Java
+	https://www.youtube.com/watch?v=a2RjtpXoWjA&t
+[Java] Phần 16 – Tạo tiến trình chạy ngầm cực kỳ đơn giản với Spring Schedule
+	Giữ phím ALT + chuột đến vùng cần chọn
+	Format auto: CTRL + ALT + L
+
+[Java] Phần 17 – Xác thực và phân quyền API bằng JWT và Spring Security [1/2]
+[Java] Phần 18 – Xác thực và phân quyền API bằng JWT và Spring Security [2/2]
 
 
+15A30a27a01manhkm
 
+Java Effective
+	E:\1_CODING\LearnJava\Ebook\13.Effective Java 3rd
+Spring In Action
+	E:\1_CODING\LearnSpring\Ebook\1.Spring in Action
