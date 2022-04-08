@@ -94,8 +94,12 @@
             
     4 Các cách để đồng bộ trong Java
         4.1 Synchronized methods
+            Đặt từ khóa: synchronized với method
+            
         4.2 Synchronized statements/ Synchronized Block
+            
         4.3 Static synchronized method
+        
     5 So sánh các cách synchronized
     6 Phương thức wait(), notify(), notifyall()
         6.1 wait()
