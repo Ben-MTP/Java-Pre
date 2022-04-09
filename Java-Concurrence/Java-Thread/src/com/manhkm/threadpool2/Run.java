@@ -1,4 +1,4 @@
-package com.manhkm.threadpool;
+package com.manhkm.threadpool2;
 
 /**
  * @author ManhKM on 3/8/2022

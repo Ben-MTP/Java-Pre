@@ -106,6 +106,67 @@
         6.2 notify() và notifyall()
         6.3 Ví dụ minh họa
     7 Deadlock (Khoá chết) là gì?
+        hay khóa chết, xảy ra khi 2 tiến trình đợi nhau hoàn thành, trước khi chạ.
+
+
     8 Tại sao không nên dùng phương thức Thread.stop()
     9 Tại sao không nên dùng phương thức Thread.suspend(), Thread.resume()
     10 Tại sao không nên dùng phương thức Thread.Destroy()?
+
+### Hướng dẫn tạo và sử dụng ThreadPool trong Java
+    1 Giới thiệu ThreadPool
+        BlockingQueue -> một hàng đợi
+        Mục đích: chờ đợi một Thread có sẵn.
+        + java.util.concurrent.
+        
+    2 Executor là gì?
+        Java Concurrency API
+            Executor:
+            ExecutorService:
+            SecheduledExecutorService
+                schedule(), scheduleAtFixedRate(), scheduleWithFixedDelay().
+
+    3 Các ví dụ minh họa tạo và sử dụng ThreadPool
+        3.1 Tạo WorkerThread
+        3.2 Ví dụ sử dụng newSingleThreadExecutor()
+        3.3 Ví dụ sử dụng newFixedThreadPool()
+        3.4 Sử dụng newCachedThreadPool()
+        3.5 Sử dụng newScheduledThreadPool()
+    4 Custom Thread Pool Executor
+        4.1 Ví dụ minh họa
+    5 Một vài lưu ý về sử dụng ExecutorService
+
+### Lập trình đa luồng với Callable và Future trong Java
+    1 Callable
+    2 Future
+    3 Ví dụ sử dụng Callable và Future
+        3.1 Sử dụng phương thức submit(Callable) của ExecutorService với kiểu trả về là 1 Future<T>
+        3.2 Sử dụng phương thức get() của Future<T> với Timeout
+        3.3 Sử dụng phương thức invokeAny(Collection<?> extends Callable<T> tasks)
+        3.4 Sử dụng phương thức invokeAll(Collection<?> extends Callable<T> tasks)
+        3.5 Hủy bỏ một Future
+
+
+###
+    1 CompletableFuture là gì?
+    2 So sánh Future vs CompletableFuture
+    3 CompletionStage là gì?
+    4 Khởi tạo CompletableFuture
+        4.1 Khởi tạo CompletableFuture
+        4.2 Chạy bất đồng bộ với runAsync() và không cần kết quả trả về
+        4.3 Chạy bất đồng bộ với supplyAsync() và cần nhận kết quả trả về
+    5 Chuyển đổi và thao tác trên một CompletableFuture
+        5.1 Sử dụng thenApply()
+        5.2 Sử dụng thenAccept() và thenRun()
+    6 Kết hợp hai CompletableFutures với nhau
+        6.1 Kết hợp hai Future phụ thuộc sử dụng thenCompose()
+        6.2 Kết hợp hai Future độc lập bằng cách sử dụng thenCombine()
+    7 Kết hợp nhiều CompletableFutures với nhau
+        7.1 Sử dụng CompletableFuture.allOf()
+        7.2 Sử dụng CompletableFuture.anyOf()
+    8 Hủy bỏ CompletableFuture như thế nào?
+    9 Sử dụng Executor với CompletableFuture
+    10 Xử lý ngoại lệ CompletableFuture
+        10.1 Sử dụng phương thức callback exceptionally()
+        10.2 Sử dụng phương thức xử lý ngoại lệ chung handle()
+        10.3 Sử dụng phương thức xử lý ngoại lệ chung whenComplete()

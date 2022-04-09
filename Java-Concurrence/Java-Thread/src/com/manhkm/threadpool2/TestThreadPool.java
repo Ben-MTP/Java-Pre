@@ -1,4 +1,4 @@
-package com.manhkm.threadpool;
+package com.manhkm.threadpool2;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;
