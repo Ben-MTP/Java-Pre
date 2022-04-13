@@ -1,6 +1,14 @@
-package com.core.stream.intro;/**
- * @project Java-Collection
+package com.core.stream.intro;
+
+/**
  * @author ManhKM on 4/12/2022
-*/
-    public class StreamMain {
+ * @project Java-Collection
+ */
+public class StreamMain {
+    public static void main(String[] args) {
+        StreamExample streamExample = new StreamExample();
+        streamExample.withoutStream();
+        System.out.println();
+        streamExample.withStream();
+    }
 }

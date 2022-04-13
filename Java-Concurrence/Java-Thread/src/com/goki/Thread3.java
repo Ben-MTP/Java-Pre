@@ -4,11 +4,11 @@ package com.goki;
  * @author ManhKM on 4/11/2022
  * @project Java-Thread
  */
-public class Thread1 implements Runnable{
+public class Thread3 implements Runnable{
 
     private String threadName;
 
-    public Thread1(String threadName){
+    public Thread3(String threadName){
         this.threadName = threadName;
     }
 
