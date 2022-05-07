@@ -1,8 +1,7 @@
 package com.core.serializable.single;
 
-import com.core.serializable.Customer;
+import com.core.serializable.entity.Customer;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;

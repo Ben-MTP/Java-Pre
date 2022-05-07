@@ -1,4 +1,4 @@
-package com.core.serializable;
+package com.core.serializable.entity;
 
 import java.io.Serializable;
 
