@@ -20,3 +20,6 @@
     https://stackjava.com/java/java-serializable-la-gi-serialization-va-deserialization-trong-java.html
 
     https://docs.oracle.com/javase/tutorial/jndi/objects/serial.html
+
+    https://samderlust.com/dev-blog/java/write-read-arraylist-object-file-java
+
