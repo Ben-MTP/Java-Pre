@@ -1,7 +1,0 @@
-Iterable
-	-> Iterator<T> iterator();
-	
-	-> default void forEach(Consumer<? super T> action)
-		NullPointerException
-	
-	-> default Spliterator<T> spliterator()
