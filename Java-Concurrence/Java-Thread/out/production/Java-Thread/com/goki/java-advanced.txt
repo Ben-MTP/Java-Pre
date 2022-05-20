@@ -52,7 +52,7 @@ https://gokisoft.com/java-advanced.htm
 		
 		
 			
-	Tìm hiểu Thread - Đồng bộ Thread - lập trình java nâng cao - Bổ sung thêm lớp mớ
+	Tìm hiểu Thread - Đồng bộ Thread - lập trình java nâng cao - Bổ sung thêm lớp mới
 	    + Luồng nó hoàn toàn chạy độc lập -> không phụ thuộc vào luồng trước hay sau nó.
 	    + Nếu có cả Thread1, Thread2 -> nó sẽ in cả kết quả của 1,2 song song với nhau.
 	    + Vòng tròn RR -> in đến luồng nào thì in cái đó ra.
@@ -63,6 +63,9 @@ https://gokisoft.com/java-advanced.htm
         + Đặt thread vào trong Thread khác.
             Nối thread1 vào thread2
             Nếu không xử lý luồng thì có thể thực hiện các thao tác khác dẫn đến chương trình bị lỗi, treo.
+
+        + wait, notify, notifyAll
+
 
 	Giải thích Synchronized + lập trình java nâng cao
 	Thread thực hiện in ngẫu nhiên các số nguyên và ký tự - phần 1
