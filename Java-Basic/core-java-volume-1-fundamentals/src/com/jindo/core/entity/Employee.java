@@ -1,4 +1,6 @@
-package com.jindo.core.entity;
+package com.jindo.core.entity.inheritance;
+
+import com.jindo.core.entity.Person;
 
 import java.time.LocalDate;
 
@@ -6,7 +8,7 @@ import java.time.LocalDate;
  * @author ManhKM on 5/20/2022
  * @project core-java-volume-1-fundamentals
  */
-public class Employee {
+public class Employee extends Person {
     private String name;
     private double salary;
     private LocalDate hireDay;
@@ -23,6 +25,11 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getDescription() {
+        return null;
     }
 
     public double getSalary() {
