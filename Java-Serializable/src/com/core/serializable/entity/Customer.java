@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * Object Customer -> chỉ là một class thông thường.
- * Nếu để chúng có thể thực hiện chuyển đổi qua lại thì phải sử dụng -> implement Serializable
+ * Để chúng có thể thực hiện chuyển đổi qua lại thì phải sử dụng -> implement Serializable
  *
  * + transient: -> nó sẽ không được serialization
  * @author ManhKM on 4/13/2022
@@ -71,5 +71,9 @@ public class Customer implements Serializable {
                 ", age=" + age +
                 ", address='" + address + '\'' +
                 '}';
+    }
+
+    public void mailCheck(){
+        System.out.println("Gửi mail đến " + name + " - " + address);
     }
 }
