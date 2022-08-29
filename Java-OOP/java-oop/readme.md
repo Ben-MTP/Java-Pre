@@ -1,20 +1,55 @@
-## Java OOP
+# Lập trình OOP Java - Thanh Duong Huu
 
-## 1. Tính đóng gói (Encapsulation):
-    + Việc đưa các tính chất, hành vi của đối tượng vào thuộc tính, method trong một class.
-    Để thể hiện tính chất, hành vi cho đối tượng.
-    + Là cách để che dấu những tính chất xử lý bên trong của đối tượng, những đối tượng khác không thể tác động 
-    trực tiếp làm thay đổi trạng thái  chỉ có thể tác động thông qua các method public của đối tượng đó
+Coder Khong Minh Manh@2022
 
-## 2. Tính kế thừa (Inheritance):
+## Tổng quát lập trình hướng đối tượng
+
+Đã học xong bài 1
+
+Đã note tài liệu slide bài giảng
+
+## Nhập môn lập trình Java - Phần 1
 
 
-## 3. Tính đa hình (Polymorphism ):
+## Nhập môn lập trình Java - Phần 2
 
 
-## 4. Tính trừu tượng(Abstraction):
+
+## Nhập môn lập trình Java - Phần 3
+
+
+## Lớp và đối tượng - Phần 1
+
+
+## Lớp và đối tượng - Phần 2
+
+
+## Lớp và đối tượng - Phần 3
+
+
+## Kế thừa - Phần 1
+
+
+## Kế thừa - Phần 2
+
+
+## Kế thừa - Phần 3
+
+
+## Lớp trừu tượng
+
+
+## Giao diện (Interface)
+
+
+
+## Giới thiệu lập trình tổng quan (Generic Programming)
+
+
+## Ôn tập lập trình hướng đối tượng Java
 
 
 
 ## Reference Document
 
+[Lập trình OOP với Java](https://www.youtube.com/playlist?list=PLlVHoHHccp28K8LMCmXFuTML8fgR8e4pc)
