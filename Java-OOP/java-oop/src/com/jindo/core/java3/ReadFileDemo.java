@@ -20,6 +20,9 @@ public class ReadFileDemo {
 
     }
 
+    /**
+     * Hàm thực hiện ghi dữ liệu xuống file
+     */
     private static void writeFile() {
         File file = new File("src/data/data2.txt");
         FileWriter fileWriter = null;
