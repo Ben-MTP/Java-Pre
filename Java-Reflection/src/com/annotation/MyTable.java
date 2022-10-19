@@ -15,6 +15,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER})
 public @interface MyTable {
-    String table();
-    String schema();
+    String table();     // Tên của bảng
+    String schema();    // Tên của schema chứa bảng
 }

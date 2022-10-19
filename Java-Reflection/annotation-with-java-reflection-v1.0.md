@@ -19,3 +19,6 @@ thì chỉ cần khai báo annotation cho class/field/method là xong
 
 @Annotation thực chất là các interface nên chỉ cần khai báo field hoặc method trong đó
 
+
+### Demo Java Reflection - Annotation:
+

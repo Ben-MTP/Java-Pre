@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @project Java-Reflection
  * -----
  * Annotation Key định danh cho một trường Primary Key.
- * Cái này chỉ cần tạo annotation để khai báo, không cần field hay method nào thêm
+ * Cái này chỉ cần tạo annotation để khai báo, không cần field hay method.
  */
 
 @Retention(RetentionPolicy.RUNTIME)

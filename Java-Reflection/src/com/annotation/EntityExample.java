@@ -14,6 +14,11 @@ public class EntityExample {
     @MyField(column = "COLUMN")
     private int column;
 
+    /**
+     * Hiển thị các Annotation
+     * @param fields
+     * @throws Exception
+     */
     public void printAnnotation(String... fields) throws Exception{
         Class<?> aClass = getClass();
         String keyColumn = "";
