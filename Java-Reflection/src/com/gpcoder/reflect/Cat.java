@@ -1,11 +1,11 @@
-package com.gpcoder;
+package com.gpcoder.reflect;
 
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
  */
 @Excel(name= "Cat")
-public class Cat extends Animal implements Say{
+public class Cat extends Animal implements Say {
 
     public static final String SAY = "Meow Meow";
     public static final int NUMBER_OF_LEGS = 4;

@@ -1,4 +1,4 @@
-package com.gpcoder;
+package com.gpcoder.reflect;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -21,7 +21,7 @@ public class ReflectClassExample {
     }
 
     public static void getClassInfo() throws ClassNotFoundException {
-        Class<?> aClass = Class.forName("com.gpcoder.Cat");
+        Class<?> aClass = Class.forName("com.gpcoder.reflect.Cat");
         System.out.println("Name: " + aClass.getName());
         System.out.println("Simple Name: " + aClass.getSimpleName());
 
@@ -77,5 +77,6 @@ public class ReflectClassExample {
         for (Annotation annotation : annotations){
             System.out.println("+ " + annotation.annotationType().getSimpleName());
         }
+
     }
 }
