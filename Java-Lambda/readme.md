@@ -43,14 +43,10 @@
 
 
 ### Reference Document
-    1. Java Lambda
-       https://www.w3schools.com/java/java_lambda.asp
-    2. Nắm rõ JAVA LAMBDA Expression cho người mới bắt đầu
-        https://viblo.asia/p/nam-ro-java-lambda-expression-cho-nguoi-moi-bat-dau-RQqKLNwbl7z
-    3. Functional Interface trong Java 8
-        https://gpcoder.com/3869-functional-interface-trong-java-8/
-    4. Biểu thức Lambda trong Java 8 - Lambda Expression
-        https://gpcoder.com/3898-bieu-thuc-lambda-trong-java-8-lambda-expressions/
+[1. Java Lambda](https://www.w3schools.com/java/java_lambda.asp)
+[2. Nắm rõ JAVA LAMBDA Expression cho người mới bắt đầu](https://viblo.asia/p/nam-ro-java-lambda-expression-cho-nguoi-moi-bat-dau-RQqKLNwbl7z)
+[3. Functional Interface trong Java 8](https://gpcoder.com/3869-functional-interface-trong-java-8/)
+[4. Biểu thức Lambda trong Java 8 - Lambda Expression](https://gpcoder.com/3898-bieu-thuc-lambda-trong-java-8-lambda-expressions/)
 
 
 ### Giới thiệu java 8

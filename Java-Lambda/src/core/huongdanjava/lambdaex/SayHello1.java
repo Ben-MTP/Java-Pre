@@ -1,4 +1,4 @@
-package core.huongdanjava.oldversion;
+package core.huongdanjava.lambdaex;
 
 /**
  * @author ManhKM on 7/21/2022
