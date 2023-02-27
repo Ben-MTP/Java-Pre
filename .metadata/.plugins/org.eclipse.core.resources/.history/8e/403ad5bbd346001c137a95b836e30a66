@@ -1,0 +1,10 @@
+package com.webservice.ws;
+
+public class SoapClient {
+	public static void main(String[] args) {
+		
+		// create url of .wsdl file:
+		URL wsdlURL = new URL(SoapPublisher.WS_URL + ".wsdl");
+		
+	}
+}

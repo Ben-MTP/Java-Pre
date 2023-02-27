@@ -1,0 +1,12 @@
+MO_PROCESS_SUCCESS;TOTAL_MO_PROCESS;VASONLINE
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline
+12;12;vasonline

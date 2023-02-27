@@ -1,0 +1,15 @@
+package com.demo;
+
+public class StringBufferDemo {
+	public static void main(String[] args) {
+		long start = System.nanoTime();
+		
+		StringBuffer s = new StringBuffer("hello");
+		for(int i = 0; i < 1000; i++) {
+			s.append
+		}
+		long end = System.nanoTime();
+		
+		System.out.println("Total time: " + (end-start));
+	}
+}

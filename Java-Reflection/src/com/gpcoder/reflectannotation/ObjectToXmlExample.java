@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * ObjectToXmlExample: chương trình minh họa sử dụng kết hợp Annotation với Reflection
  */
 public class ObjectToXmlExample {
   public static void main(String[] args) {

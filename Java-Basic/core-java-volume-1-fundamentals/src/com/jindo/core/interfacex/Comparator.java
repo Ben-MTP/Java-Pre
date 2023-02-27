@@ -1,6 +1,9 @@
-package com.jindo.core.interfacex;/**
- * @project core-java-volume-1-fundamentals
+package com.jindo.core.interfacex;
+
+/**
  * @author ManhKM on 5/25/2022
-*/
-    public interface Comparator {
+ * @project core-java-volume-1-fundamentals
+ */
+public interface Comparator<T> {
+    int compare(T first, T second);
 }

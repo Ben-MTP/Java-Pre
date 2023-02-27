@@ -17,6 +17,9 @@ import java.lang.annotation.Target;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 
+/**
+ * XmlElement: là một Annotation, sử dụng để đánh dấu đây là một phần tử của tài liệu xml.
+ */
 public @interface XmlElement {
     String name();
 }

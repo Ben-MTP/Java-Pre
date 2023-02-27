@@ -12,6 +12,7 @@
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
     <httpclient.version>4.5.2</httpclient.version>
+    <fluent-hc.version>4.5.13</fluent-hc.version>
   </properties>
 
   <dependencies>
@@ -20,6 +21,13 @@
       <artifactId>httpclient</artifactId>
       <version>${httpclient.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>fluent-hc</artifactId>
+      <version>${fluent-hc.version}</version>
+    </dependency>
+
   </dependencies>
 
 </project>

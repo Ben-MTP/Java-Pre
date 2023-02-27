@@ -1,4 +1,4 @@
-package com.core.jindo.localvariable.inheritance;
+package com.core.jindo.localvariable.chapter1;
 
 /**
  * @author ManhKM on 6/3/2022

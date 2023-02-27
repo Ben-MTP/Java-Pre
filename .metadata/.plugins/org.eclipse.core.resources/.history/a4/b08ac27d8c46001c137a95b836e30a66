@@ -1,0 +1,6 @@
+package ws;
+
+@WebService
+public class EchoWS {
+	
+}

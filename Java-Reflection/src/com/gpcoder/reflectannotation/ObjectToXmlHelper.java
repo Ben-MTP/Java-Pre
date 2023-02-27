@@ -10,6 +10,8 @@ import java.util.List;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * ObjectToXmlHelper: lớp sử dụng Reflection để đọc thông tin các Annotation được đánh dấu và chuyển sang tài liệu xml.
  */
 public class ObjectToXmlHelper {
   /*

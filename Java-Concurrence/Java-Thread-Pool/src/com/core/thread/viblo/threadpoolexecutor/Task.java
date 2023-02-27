@@ -1,4 +1,4 @@
-package com.core.thread.viblo;
+package com.core.thread.viblo.threadpoolexecutor;
 
 /**
  * @author ManhKM on 8/11/2022

@@ -25,9 +25,12 @@ public class ThreadInfoExample {
         t2.setPriority(Thread.NORM_PRIORITY);
         t3.setPriority(Thread.MAX_PRIORITY);
 
+        System.out.println(t1.isDaemon());
+
         t1.start();
         t2.start();
         t3.start();
+
 
     }
 }

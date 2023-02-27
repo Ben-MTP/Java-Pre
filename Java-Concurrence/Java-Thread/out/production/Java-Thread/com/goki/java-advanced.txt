@@ -1,0 +1,84 @@
+https://gokisoft.com/java-advanced.htm
+
++ Tài liệu học
+
+
++ Exception & Collection
+	Overview Exception
+	Exception
+	ArrayIndexOutofBoundsException
+	
+	Debug sẽ kiểm soát mọi lỗi của chương trình này.
+	11102002
+	
+	Luồng, đa luồng thì dễ
+	Đồng bộ luồng và deal lock thì khá khó.
+	
+	StringBuilder và StringBuffer
+	StringBuiler -> bản chất -> nó sẽ tạo ra mảng và add phần tử vào.
+				 -> append giá trị mới vào.
+	??? Phân biệt String, StringBuiler, StringBuffer
+	
+	+ Sử dụng Reguler Pattern
+	Pattern.compile
+	
+	
+
+
++ File
+
+
++ Thread
+	Phân tích quản lý ứng dụng trong HDH - Phân tích Game đa luồng Java
+		Phần 13: Phân tích quản lý ứng dụng HDH (Window, Mac, Linux) - Phân tích game đa luồng Java
+		+ CPU 4x4 là gì?
+			Tại một thời điểm xử lý được 4 dòng lệnh.
+			1s CPU thực hiện hàng triệu lệnh -> tốc độ quá nhanh -> tạo cảm giác nhanh -> đa luồng.
+			Giải thuật: Round Robin
+		+ Xây dựng một dự án đa luồng.
+		+ 3 cách tạo ra luồng -> bản chất sẽ có một luồng main class.
+        + Các hàm trong một Thread -> để biết cách làm việc rõ hơn.
+            Các trạng thái khác nhau của một luồng.
+                Tham khảo:
+                    https://viblo.asia/p/vong-doi-va-trang-thai-cua-thread-bJzKmVWwZ9N
+                    https://gokisoft.com/share-code-thread-trong-java--thread-sleep--join-trong-java.html
+
+            Thread.sleep
+            getName -> lấy tên của luồng.
+        + Bài toán về sử lý đồng bộ
+            đặt logic trong khối synchronized
+
+
+		
+		
+			
+	Tìm hiểu Thread - Đồng bộ Thread - lập trình java nâng cao - Bổ sung thêm lớp mới
+	    + Luồng nó hoàn toàn chạy độc lập -> không phụ thuộc vào luồng trước hay sau nó.
+	    + Nếu có cả Thread1, Thread2 -> nó sẽ in cả kết quả của 1,2 song song với nhau.
+	    + Vòng tròn RR -> in đến luồng nào thì in cái đó ra.
+        + Làm thế nào để nối các luồng với nhau
+            Thread1 -> sau khi chạy đến điểm nào đó -> nối vào Thread2 -> join
+                Nếu không nối thì chúng vẫn chạy với nhau một cách song song.
+
+        + Đặt thread vào trong Thread khác.
+            Nối thread1 vào thread2
+            Nếu không xử lý luồng thì có thể thực hiện các thao tác khác dẫn đến chương trình bị lỗi, treo.
+
+        + wait, notify, notifyAll
+
+
+	Giải thích Synchronized + lập trình java nâng cao
+	Thread thực hiện in ngẫu nhiên các số nguyên và ký tự - phần 1
+	Thread thực hiện in ngẫu nhiên các số nguyên và ký tự
+		Đồng bộ thread + wait notify + synchronized
+		Java nâng cao - phần 2
+	Synchronized 2 Thread - Bài tập mảng tên + địa chỉ - Java nâng cao
+	Bài tập ôn luyện tổng hợp file, OOP, Thread trong Java
+	Sử dụng MultiThreading sinh ký tự a-zA-Z trong Java
+	
+
++ CSDL
+
+
++ Ôn tập Tổng quát & Exmination
+

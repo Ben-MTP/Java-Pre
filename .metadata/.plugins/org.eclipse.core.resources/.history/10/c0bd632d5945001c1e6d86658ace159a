@@ -1,0 +1,10 @@
+package com.use.jar;
+
+
+public class TestUseJar {
+	
+	public static void main(String[] args) {
+		int result = add2(3,4);
+	}
+	
+}

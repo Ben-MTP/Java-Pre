@@ -1,0 +1,6 @@
+package com.webservice.ws;
+
+@WebService
+public class UserService {
+
+}

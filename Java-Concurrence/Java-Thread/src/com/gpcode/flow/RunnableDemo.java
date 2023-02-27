@@ -3,6 +3,11 @@ package com.gpcode.flow;
 /**
  * @author ManhKM on 4/5/2022
  * @project Java-Thread
+ * -----
+ * Flow của phần gọi qua Runnable cũng tương tự như với Thread thôi, không có gì cả
+ * Thay vì gọi qua lớp triển khai của Runnable -> thì gọi thẳng luôn vào Runnable
+ * Thread thì cũng từ Rannable mà ra
+ * Dùng Runnable -> dễ để đưa vào ThreadPool hơn nhiều -> core
  */
 public class RunnableDemo implements Runnable{
     private Thread t;

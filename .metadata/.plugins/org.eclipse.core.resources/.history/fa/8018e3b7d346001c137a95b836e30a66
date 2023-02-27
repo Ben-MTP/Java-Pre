@@ -1,0 +1,7 @@
+package com.webservice.ws;
+
+public class SoapClient {
+	public static void main(String[] args) {
+		
+	}
+}

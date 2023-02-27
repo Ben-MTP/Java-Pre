@@ -1,0 +1,9 @@
+package com.ioc.entity;
+
+public class Girl {
+
+	private Outfit outfit;
+	public Girl() {
+		outfit = new Bikini();
+	}
+}

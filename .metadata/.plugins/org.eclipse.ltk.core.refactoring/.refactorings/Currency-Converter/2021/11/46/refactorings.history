@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Currency-Converter/data-money&apos; to &apos;data-money.xml&apos;" description="Rename resource &apos;data-money&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="data-money" name="data-money.xml" stamp="1636627936740" updateReferences="true"/>
+</session>

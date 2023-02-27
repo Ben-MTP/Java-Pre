@@ -1,0 +1,11 @@
+package com.webservice.ws;
+
+import javax.jws.WebService;
+import javax.jws.soap.SOAPBinding;
+
+@WebService
+@SOAPBinding(style = SOAPBinding.Style.RPC)
+public interface UserService {
+	
+	int insert(User user);
+}

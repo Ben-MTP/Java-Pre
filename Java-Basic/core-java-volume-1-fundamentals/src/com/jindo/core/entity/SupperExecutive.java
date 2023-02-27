@@ -1,6 +1,8 @@
-package com.jindo.core.entity;/**
- * @project core-java-volume-1-fundamentals
+package com.jindo.core.entity;
+
+/**
  * @author ManhKM on 5/20/2022
-*/
-    public class SupperExecutive {
+ * @project core-java-volume-1-fundamentals
+ */
+public class SupperExecutive {
 }

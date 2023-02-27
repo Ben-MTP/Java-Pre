@@ -1,0 +1,8 @@
+package com.tight.coupling;
+
+public class Main {
+	public static void main(String[] args) {
+		SortAlgorithm bubbleSort = new BubbleSortAlgorithm();
+		SortAlgorithm bubbleSort = new QuicksortAlgorithm();
+	}
+}

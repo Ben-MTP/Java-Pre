@@ -9,6 +9,8 @@ import java.lang.reflect.Modifier;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * Được sử dụng ReflectClass để lấy các thông tin của lớp được chỉ định
  */
 public class ReflectClassExample {
 
@@ -28,6 +30,7 @@ public class ReflectClassExample {
         Package pkg = aClass.getPackage();
         System.out.println("Package Name = " + pkg.getName());
 
+        // Modifier:
         int modifiers = aClass.getModifiers();
         boolean isPublic = Modifier.isPublic(modifiers);
         boolean isInterface = Modifier.isInterface(modifiers);
@@ -39,9 +42,11 @@ public class ReflectClassExample {
         System.out.println("Is Interface?" + isInterface);
         System.out.println("Is Abstract?" + isAbstract);
 
+        // Lấy ra đối tượng class mô tả class cha của class Cat:
         Class<?> aSuperClass = aClass.getSuperclass();
         System.out.println("Simple Class Name of Supper Class = " + aSuperClass);
 
+        // Lấy ra mảng các Class mô tả các Interface của Class Cat:
         System.out.println("\n Interface: ");
         Class<?>[] itfClasses = aClass.getInterfaces();
         for (Class<?> itfClass : itfClasses){

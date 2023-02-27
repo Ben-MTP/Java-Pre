@@ -1,0 +1,13 @@
+package ws;
+
+public class EchoClient {
+
+	public static void main(String[] args) {
+		try {
+			EchoWS service = new EchoWS();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

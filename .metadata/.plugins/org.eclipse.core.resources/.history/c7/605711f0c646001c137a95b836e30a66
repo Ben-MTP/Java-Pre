@@ -1,0 +1,9 @@
+package com.webservice.ws;
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "com.webservice.ws.UserService")
+public class UserServiceImpl implements UserService{
+
+	
+}

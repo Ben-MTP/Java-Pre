@@ -17,6 +17,10 @@ import java.lang.annotation.Target;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 
+/**
+ * XmlElementWrapper: là một Annotation sử dụng để đánh dấu đây là một phần cha và giá trị của nó là một Collection (có chứa tài liệu xml con).
+ */
+
 public @interface XmlElementWrapper {
   String name();
 }

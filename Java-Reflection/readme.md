@@ -44,5 +44,6 @@ vụ đó từ xa.
 	
 
 ## Reference document:
-    [1] Java-Reflection
-    https://tunghuynh.net/programer/java/2147/java-phan-8-tim-hieu-ve-java-reflection/
+    [1. Java-Reflection](https://tunghuynh.net/programer/java/2147/java-phan-8-tim-hieu-ve-java-reflection/)
+	
+	[2. Hướng dẫn sử dụng Java Reflection](https://gpcoder.com/2883-huong-dan-su-dung-java-reflection/)

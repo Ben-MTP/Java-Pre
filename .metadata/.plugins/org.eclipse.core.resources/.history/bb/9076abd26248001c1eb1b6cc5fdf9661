@@ -1,0 +1,12 @@
+package com.gpcoder;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "user")
+public class User {
+
+	private Integer id;
+	private String username;
+	
+	
+}

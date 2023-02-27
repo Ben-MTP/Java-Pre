@@ -1,4 +1,4 @@
-package com.core.thread.viblo;
+package com.core.thread.viblo.threadpoolexecutor;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;

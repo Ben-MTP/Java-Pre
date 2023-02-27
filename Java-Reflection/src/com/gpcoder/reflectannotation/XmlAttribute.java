@@ -17,6 +17,9 @@ import java.lang.annotation.Target;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 
+/**
+ * XmlAttribute: là một Annotation, sử dụng để đánh dấu đây là một thuộc tính của phần tử.
+ */
 public @interface XmlAttribute {
     String name();
 }

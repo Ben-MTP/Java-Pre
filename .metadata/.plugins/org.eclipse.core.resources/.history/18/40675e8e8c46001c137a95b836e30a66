@@ -1,0 +1,11 @@
+package ws;
+
+import javax.jws.WebService;
+
+@WebService
+public class EchoWS {
+	
+	public String echo(String s) {
+		return "Echo: ";
+	}
+}

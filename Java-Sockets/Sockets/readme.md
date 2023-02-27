@@ -24,9 +24,9 @@ Phía ứng dụng chủ, khi có ứng dụng khách kết nối đến, phươ
 
 
 ## Tham khao:
-1. [Java - Sockets] 
-https://viblo.asia/p/java-sockets-WAyK8x7kKxX
+1. [Java - Sockets](https://viblo.asia/p/java-sockets-WAyK8x7kKxX)
 
-2. [CƠ CHẾ HOẠT ĐỘNG CỦA REMOTE PROCEDULE CALL (RPC)]
-https://letonphat.wordpress.com/2011/03/05/c%C6%A1-ch%E1%BA%BF-ho%E1%BA%A1t-d%E1%BB%99ng-c%E1%BB%A7a-remote-procedule-call-rpc/
+2. [CƠ CHẾ HOẠT ĐỘNG CỦA REMOTE PROCEDULE CALL (RPC)](https://letonphat.wordpress.com/2011/03/05/c%C6%A1-ch%E1%BA%BF-ho%E1%BA%A1t-d%E1%BB%99ng-c%E1%BB%A7a-remote-procedule-call-rpc/)
+
+3. [Socket là gì? Websocket là gì?](https://topdev.vn/blog/socket-la-gi-websocket-la-gi/)
 

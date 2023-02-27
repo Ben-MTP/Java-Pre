@@ -1,0 +1,17 @@
+package com.webservice.ws;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+
+public class SoapClient {
+	public static void main(String[] args) throws MalformedURLException {
+		
+		// create url of .wsdl file:
+		URL wsdlURL = new URL(SoapPublisher.WS_URL + ".wsdl");
+		
+		// create a qname using targerNamesapce and name:
+		QName qname = new QName("http://ws.webservice.com/", "UserServiceImplService");
+	}
+}

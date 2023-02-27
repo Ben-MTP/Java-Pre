@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+E:\1_CODING\LearnJava\Java-Pre\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3071318588.index
+\SoapWebServiceExampleClient\src\main\java

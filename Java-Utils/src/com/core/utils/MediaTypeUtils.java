@@ -1,6 +1,26 @@
-package com.core.utils;/**
- * @project Java-Utils
+package com.core.utils;
+
+import org.springframework.http.MediaType;
+import javax.servlet.ServletContext;
+
+/**
  * @author ManhKM on 6/21/2022
-*/
-    public class MediaTypeUtils {
+ * @project Java-Utils
+ */
+public class MediaTypeUtils {
+
+    // abc.zip
+    // abc.pdf,..
+    public static MediaType getMediaTypeForFileName(ServletContext servletContext, String fileName) {
+        // application/pdf
+        // application/xml
+        // image/gif, ...
+        String mineType = servletContext.getMimeType(fileName);
+        try {
+            MediaType mediaType = MediaType.parseMediaType(mineType);
+            return mediaType;
+        } catch (Exception e) {
+            return MediaType.APPLICATION_OCTET_STREAM;
+        }
+    }
 }

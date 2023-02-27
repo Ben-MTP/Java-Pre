@@ -1,4 +1,4 @@
-package com.goki.java2.lession4;
+package com.goki.java2.thread.lession4;
 
 /**
  * @author ManhKM on 6/30/2022

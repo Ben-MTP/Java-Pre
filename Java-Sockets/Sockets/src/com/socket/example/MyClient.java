@@ -6,6 +6,10 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
+/**
+ * Thông qua host: localhost
+ * Port: 3333 chúng sẽ kết nối đến Socket
+ */
 public class MyClient {
 
 	public static void main(String[] args) throws Exception {

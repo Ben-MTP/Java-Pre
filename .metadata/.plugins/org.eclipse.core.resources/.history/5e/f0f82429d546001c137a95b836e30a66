@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SoapWebServiceExample2Client">
+        <property name="context-root" value="SoapWebServiceExample2Client"/>
+        <property name="java-output-path" value="/SoapWebServiceExample2Client/build/classes"/>
+    </wb-module>
+</project-modules>

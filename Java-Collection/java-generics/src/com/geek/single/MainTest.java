@@ -1,4 +1,4 @@
-package com.geek;
+package com.geek.single;
 
 import com.core.Student;
 import java.util.ArrayList;

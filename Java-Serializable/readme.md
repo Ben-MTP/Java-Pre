@@ -10,6 +10,15 @@ Quá trình Serialization chuyển đổi giữa Object và byte stream giữa c
 ![Chuyển đổi Serialization và Deserialization](img/mo-hinh-chuyen-doi.png)
 
 1.2. Interface java.io.Serializable là gì?
+
+    java.io
+      Class NotSerializableException
+        java.lang.Object
+          java.lang.Throwable
+            java.lang.Exception
+              java.io.IOException
+                java.io.ObjectStreamException
+                  java.io.NotSerializableException
 	
 1.3. Tại sao nên sử dụng Serializable?
 

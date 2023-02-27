@@ -1,0 +1,26 @@
+Function Interface
+
+	https://caodang.fpt.edu.vn/tin-tuc-poly/java-8-ban-da-biet-het-ve-lambdas-streams-and-functional-style-programming-phan-1.html
+
+Java Lambda Expressions
+
+Method Reference
+
+Java Stream
+Thymeleaf:
+	Spring Boot và ViewResolver
+	Thymeleaf
+	Standard Expressions
+	Thymeleaf Attributes
+	Thymeleaf Utilities
+	
+Web Browser
+Handler Mapping
+Controller
+View Resolver
+View Engine
+
+
+
+sonpeter.github.io/teaching/
+

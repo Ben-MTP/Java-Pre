@@ -1,0 +1,10 @@
+package com.webservice.ws;
+
+public class SoapPublisher {
+
+	public static final String WS_URL = "http://localhost:8089/ws/users";
+	
+	public static void main(String[] args) {
+		
+	}
+}

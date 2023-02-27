@@ -1,0 +1,19 @@
+package com.webservice.ws;
+
+/**
+ * 
+ * @author ManhKM
+ * wsimport -s . http://localhost:8089/ws/users?wsdl
+ *
+ */
+public class SoapClient {
+	public static void main(String[] args) {
+		UserServiceImplService userServiceImplService = new UserServiceImplService();
+		UserService userService = userServiceImplService.getUserServiceImplPort();
+		
+		User user1 = new User();
+		user1.setId(100);
+		user1.setUsername("alibaba");
+		
+	}
+}

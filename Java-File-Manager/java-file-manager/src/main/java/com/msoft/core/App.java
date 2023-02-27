@@ -1,6 +1,16 @@
-package com.msoft.core;/**
- * @project java-file-manager
+package com.msoft.core;
+
+import com.msoft.core.utils.FileUtil;
+
+/**
  * @author ManhKM on 9/13/2022
-*/
-    public class App {
+ * @project java-file-manager
+ */
+public class App {
+
+    public static void main(String[] args) {
+        FileUtil fileUtil = new FileUtil();
+        String path = "work/wait/register";
+        fileUtil.discovery(path, false);
+    }
 }

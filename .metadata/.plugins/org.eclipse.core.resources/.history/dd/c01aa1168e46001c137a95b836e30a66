@@ -1,0 +1,10 @@
+package ws;
+
+public class EchoWSService {
+
+	public EchoWS getEchoWSPort() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

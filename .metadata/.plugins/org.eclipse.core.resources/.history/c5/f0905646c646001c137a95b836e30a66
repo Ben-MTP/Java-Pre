@@ -1,0 +1,13 @@
+package com.webservice.ws;
+
+public class User {
+	
+	private Integer id;
+	private String username;
+	
+	// constructor:
+	
+	// set-get:
+	
+	// toString:
+}

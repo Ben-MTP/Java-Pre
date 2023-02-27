@@ -3,6 +3,8 @@ package com.gpcoder.reflectannotation;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * Book: lớp chứa thông tin sách
  */
 @XmlRootElement(name = "book")
 public class Book {

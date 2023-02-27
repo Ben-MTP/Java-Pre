@@ -1,0 +1,14 @@
+package com.webservice.ws;
+
+/**
+ * 
+ * @author ManhKM
+ * wsimport -s . http://localhost:8089/ws/users?wsdl
+ *
+ */
+public class SoapClient {
+	public static void main(String[] args) {
+		UserServiceImplService userServiceImplService = new UserServiceImplService();
+		
+	}
+}

@@ -1,0 +1,17 @@
+package ws;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public class EchoWS {
+	
+	@WebMethod
+	public String echo(String s) {
+		return "Echo: " + s;
+	}
+	
+	public static void main(String[] agrs) {
+		
+	}
+}

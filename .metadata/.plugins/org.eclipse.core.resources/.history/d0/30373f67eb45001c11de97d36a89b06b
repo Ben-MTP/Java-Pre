@@ -1,0 +1,8 @@
+package com.ioc;
+
+public class Main {
+	public static void main(String[] args) {
+		Outfit bikini - new Bikini();
+		
+	}
+}

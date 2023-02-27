@@ -1,0 +1,6 @@
+package com.webservice.ws;
+
+@WebService(endpointInterface = "com.webservice.ws.UserService")
+public class UserServiceImpl {
+
+}

@@ -1,4 +1,4 @@
-package com.core.gpcoder.stream.intro;
+package com.core.gpcoder.stream.convert;
 
 import java.util.ArrayList;
 import java.util.Arrays;

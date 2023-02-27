@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.tight.coupling.SortAlgorithm"/>
+    <fullyQualifiedTypeName name="com.tight.coupling.services.VeryComplexService"/>
+    <fullyQualifiedTypeName name="com.ioc.entity.Outfit"/>
+    <fullyQualifiedTypeName name="com.ioc.entity.Bikini"/>
+    <fullyQualifiedTypeName name="com.ioc.entity.Girl"/>
+    <fullyQualifiedTypeName name="javax.jws.WebService"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+    <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Style"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+    <fullyQualifiedTypeName name="com.webservice.ws.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+    <fullyQualifiedTypeName name="com.webservice.ws.UserServiceImplService"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.gpcoder.User"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

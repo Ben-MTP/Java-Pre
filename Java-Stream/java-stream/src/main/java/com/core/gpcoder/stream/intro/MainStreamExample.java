@@ -1,4 +1,4 @@
-package com.core.gpcoder.intro;
+package com.core.gpcoder.stream.intro;
 
 /**
  * @author ManhKM on 11/1/2022

@@ -9,30 +9,31 @@ import java.util.concurrent.TimeUnit;
  * @project Java-Thread-Pool
  */
 public class ThreadPoolExecutorExample {
-    public static void main(String[] args) {
-        int corePoolSize = 5;
-        int maximumPoolSize = 10;
-        int queueCapacity = 100;
 
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(corePoolSize,
-                                            maximumPoolSize,
-                                            10,     //Thời gian một thread được sống nếu không làm gì
-                                            TimeUnit.SECONDS,
-                                            new ArrayBlockingQueue<>(queueCapacity));   // Blocking queue để cho request đợi
+  public static void main(String[] args) {
+    int corePoolSize = 5;
+    int maximumPoolSize = 10;
+    int queueCapacity = 100;
 
-        // 1000 request đến dồn dập, liền 1 phát, không nghỉ.
-        for(int i = 0; i < 1000; i++){
-            executor.execute(new RequestHandler("request-" + i));
-            try {
-                Thread.sleep(50);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        executor.shutdown();    // Không cho threadpool nhận thêm nhiệm vụ vào nữa
+    ThreadPoolExecutor executor = new ThreadPoolExecutor(corePoolSize,
+        maximumPoolSize,
+        10,     //Thời gian một thread được sống nếu không làm gì
+        TimeUnit.SECONDS,
+        new ArrayBlockingQueue<>(queueCapacity));   // Blocking queue để cho request đợi
 
-        while (!executor.isTerminated()){
-            //
-        }
+    // 1000 request đến dồn dập, liền 1 phát, không nghỉ.
+    for (int i = 0; i < 1000; i++) {
+      executor.execute(new RequestHandler("request-" + i));
+      try {
+        Thread.sleep(50);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+      }
     }
+    executor.shutdown();    // Không cho threadpool nhận thêm nhiệm vụ vào nữa
+
+    while (!executor.isTerminated()) {
+      //
+    }
+  }
 }

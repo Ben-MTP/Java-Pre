@@ -1,4 +1,4 @@
-package com.core.gpcoder.intro;
+package com.core.gpcoder.stream.intro;
 
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

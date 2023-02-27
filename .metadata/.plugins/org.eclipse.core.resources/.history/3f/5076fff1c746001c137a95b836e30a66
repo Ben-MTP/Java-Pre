@@ -1,0 +1,5 @@
+package com.webservice.ws;
+
+public class SoapPublisher {
+
+}

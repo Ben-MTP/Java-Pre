@@ -1,0 +1,14 @@
+package com.use.jar;
+
+import com.manhkm.jar.FunctionOne;
+
+public class TestUseJar {
+	
+	public static void main(String[] args) {
+	}
+	
+	public void usingFunction() {
+		FunctionOne.add2(10, 20);
+	}
+	
+}

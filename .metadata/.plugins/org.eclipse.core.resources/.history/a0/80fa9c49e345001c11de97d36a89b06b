@@ -1,0 +1,5 @@
+package com.tight.coupling.services;
+
+public class VeryComplexService {
+	private SortAlgorithm sortAlgorithm;
+}

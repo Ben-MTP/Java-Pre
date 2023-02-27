@@ -5,6 +5,8 @@ import java.util.List;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * BookStore: lớp chứa thông tin cửa hàng sách.
  */
 @XmlRootElement(name = "bookStore", namespace = "com.gpcoder.reflectannotation")
 public class BookStore {

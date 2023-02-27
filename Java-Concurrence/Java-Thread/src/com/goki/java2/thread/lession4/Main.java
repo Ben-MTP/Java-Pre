@@ -1,4 +1,4 @@
-package com.goki.java2.lession4;
+package com.goki.java2.thread.lession4;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

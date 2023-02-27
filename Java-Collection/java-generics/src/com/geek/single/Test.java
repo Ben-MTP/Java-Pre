@@ -1,4 +1,4 @@
-package com.geek;
+package com.geek.single;
 
 /**
  * @author ManhKM on 8/24/2022

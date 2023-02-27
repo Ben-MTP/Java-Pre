@@ -1,0 +1,38 @@
+Mục đích sử dụng đối với Collection
+
+Bên cạnh việc sử dụng vòng lặp for, iterator
+
+Có 2 chế độ: Tuần tự (Sequential) và song song (Parallel)
+
+Nội dung:
+
+Stream in Java 8
+
+1. Sequaltial Stream
+
+  1.1. Tạo Stream từ List như thế nào?
+
+  1.2. Tạo Stream từ một ArrayList như thế nào?
+
+2. Các phase xử lý của Stream
+
+  2.1. Phương thức cấu hình của Stream
+
+    Stream.filter()
+
+    Stream.map()
+
+  2.2. Phương thức xử lý của Stream
+
+Stream.collect()
+
+Stream.count()
+
+Stream.reduce()
+
+Parallel Stream
+
+Kết luận:
+
+Tài liệu tham khảo
+

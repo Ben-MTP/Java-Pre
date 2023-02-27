@@ -1,0 +1,21 @@
+package com.webservice.ws;
+
+public class User {
+	
+	private Integer id;
+	private String username;
+	
+	// constructor:
+	public User(Integer id, String username) {
+		super();
+		this.id = id;
+		this.username = username;
+	}
+	
+	public User() {
+		
+	}
+	// set-get:
+	
+	// toString:
+}

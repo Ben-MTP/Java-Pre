@@ -1,0 +1,46 @@
+package com.webservice.ws;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import java.util.HashMap;
+import java.util.Map;
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "com.webservice.ws.UserService")
+public class UserServiceImpl implements UserService{
+
+	private static final Map<Integer, User> USERS = new HashMap<>();
+	
+	@Override
+	public int insert(User user) {
+		
+		return 0;
+	}
+
+	@Override
+	public boolean update(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delete(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public User get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User[] getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

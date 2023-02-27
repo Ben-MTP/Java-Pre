@@ -10,6 +10,8 @@ import java.lang.annotation.Target;
 /**
  * @author ManhKM on 10/19/2022
  * @project Java-Reflection
+ * -----
+ * XmlRootElement: là một Annotation, sử dụng để đánh dấu phần tử gốc (root element) của một tài liệu xml.
  */
 @Documented
 @Target(ElementType.TYPE)
