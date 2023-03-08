@@ -27,10 +27,23 @@ public class UsingJoinMethod extends Thread{
     public static void main(String[] args) throws InterruptedException {
         UsingJoinMethod thread1 = new UsingJoinMethod("Thread-01");
         UsingJoinMethod thread2 = new UsingJoinMethod("Thread-02");
+        UsingJoinMethod thread3 = new UsingJoinMethod("Thread-03");
+        UsingJoinMethod thread4 = new UsingJoinMethod("Thread-04");
+
+
 
         thread1.start();
         thread1.join();
+
         thread2.start();
+        thread2.join();
+
+        thread3.start();
+        thread3.join();
+
+        thread4.start();
+        thread4.join();
+
         System.out.println("Main Thread Finished");
     }
 }
