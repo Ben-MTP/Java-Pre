@@ -1,7 +1,6 @@
 package com.msoft.core.config;
 
-import com.msoft.core.task.CustomerProcessor;
-import java.util.concurrent.Executor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;
@@ -18,26 +17,26 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 @EnableAsync
 public class ExecutorServiceConfig {
 
+    @Value("${app.executor.core-pool-size}")
+    private String corePoolSize;
+
+    @Value("${app.executor.max-pool-size}")
+    private String maxPoolSize;
+
+    @Value("${app.executor.queue-capacity}")
+    private String queueCapacity;
+
+    @Value("${app.executor.name-prefix}")
+    private String namePrefix;
+
     @Bean
-    public Executor executor() {
+    public ThreadPoolTaskExecutor executor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(5);
-        executor.setMaxPoolSize(10);
-        executor.setQueueCapacity(100);
-        executor.setThreadNamePrefix("CustomerReader-");
+        executor.setCorePoolSize(Integer.parseInt(corePoolSize));
+        executor.setMaxPoolSize(Integer.parseInt(maxPoolSize));
+        executor.setQueueCapacity(Integer.parseInt(queueCapacity));
+        executor.setThreadNamePrefix(namePrefix);
         executor.initialize();
         return executor;
-    }
-
-    /**
-     * Tạo mới một Bean CustomerProcessor để thực hiện logic riêng Khởi tạo Thread thông qua
-     * Constructor của Processor
-     *
-     * @param executor
-     * @return
-     */
-    @Bean
-    public CustomerProcessor customerProcessor(Executor executor) {
-        return new CustomerProcessor(executor);
     }
 }

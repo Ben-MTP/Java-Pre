@@ -1,0 +1,8 @@
+server:
+  port: 8081
+app:
+  executor:
+    core-pool-size: 10
+    max-pool-size: 20
+    queue-capacity: 100
+    name-prefix: CustomerReader-
