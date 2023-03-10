@@ -11,7 +11,7 @@ public class DaemonThreadTest {
         runnableWorkingThread.start();
 
         // continue program:
-        Thread.sleep(30);
+        Thread.sleep(3000);
         System.out.println(Thread.currentThread().getName());
         System.out.println(">>><<< Finishing Main Program");
     }

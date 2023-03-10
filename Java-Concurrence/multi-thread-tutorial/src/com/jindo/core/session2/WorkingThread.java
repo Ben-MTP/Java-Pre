@@ -41,7 +41,7 @@ public class WorkingThread implements Runnable {
 
     private void processSomething(int count) {
         Random random = new Random();
-        int i = random.nextInt(999999);
+        int i = random.nextInt(999999999);
 
         try {
             System.out.println(
