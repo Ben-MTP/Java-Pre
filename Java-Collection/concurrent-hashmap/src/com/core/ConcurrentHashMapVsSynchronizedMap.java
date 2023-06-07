@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ConcurrentHashMapVsSynchronizedMap {
     public final static int THREAD_POOL_SIZE = 10;
-    public final static int DATA_SIZE        = 1000000;
+    public final static int DATA_SIZE        = 1_000_000;
 
     public static Map<String, Integer> hashTable = null;
     public static Map<String, Integer> synchronizedMap = null;
