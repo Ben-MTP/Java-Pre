@@ -16,7 +16,8 @@ import java.util.List;
  */
 public class DirectoriesServiceImpl implements DirectoriesService {
 
-    public DirectoriesServiceImpl(){}
+    public DirectoriesServiceImpl() {
+    }
 
     /**
      * Lấy danh sách file số liệu theo đường dẫn thư mục được chỉ định
@@ -70,5 +71,73 @@ public class DirectoriesServiceImpl implements DirectoriesService {
             System.out.println("... FILE ALREADY EXISTS");
         }
         return null;
+    }
+
+    /**
+     * Hàm sửa tên của thư mục
+     *
+     * @param currentPathDirectory
+     * @param newPathDirectory
+     * @return
+     */
+    @Override
+    public Boolean renameDirectory(String currentPathDirectory, String newPathDirectory) {
+        Path currentPath = Paths.get(currentPathDirectory);
+        Path newPath = Paths.get(newPathDirectory);
+
+        try {
+            Files.move(currentPath, newPath);
+            System.out.println("RENAME SUCCESS...");
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("CANNOT RENAME FILE...");
+            return false;
+        }
+    }
+
+    @Override
+    public Boolean deleteDirectory(String pathDirector) {
+        Path path = Paths.get(pathDirector);
+
+        try {
+            if (!Files.isDirectory(path)) {
+                System.out.println("NOT A DIRECTORY");
+                return false;
+            }
+            if (Files.list(path).findFirst().isPresent()) {
+                System.out.println("DIRECTORY CONTAINS FILES");
+                return false;
+            }
+            Files.delete(path);
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public Boolean copyDirectory(String sourceDirectory, String targetDirectory) {
+        Path sourcePath = Paths.get(sourceDirectory);
+        Path targetPath = Paths.get(targetDirectory);
+
+        try {
+            if (!Files.exists(targetPath)) {
+                Files.createDirectories(targetPath);
+            }
+            Files.walk(sourcePath).forEach(source -> {
+                Path target = targetPath.resolve(sourcePath.relativize(source));
+                try {
+                    Files.copy(source, target);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }

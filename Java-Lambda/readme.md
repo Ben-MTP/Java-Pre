@@ -1,6 +1,9 @@
 ## Hướng dẫn thực hành với Lambda
 
 
+
+
+
 ### Java Lambda Expressions
     parameter -> expression
     (parameter1, parameter2) -> expression
@@ -129,4 +132,8 @@
 
 ### Refactoring Design Pattern với tính năng mới trong java 8
 
+
+### Tài liệu tham khảo:
+
+[Biểu thức Lambda trong Java 8](https://gpcoder.com/3898-bieu-thuc-lambda-trong-java-8-lambda-expressions/)
 

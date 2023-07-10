@@ -14,5 +14,9 @@ public interface DirectoriesService {
 
     DirectionEntity createDirectoryUsingPathDirectory(String pathDirector);
 
+    Boolean renameDirectory(String currentPathDirectory, String newPathDirectory);
 
+    Boolean deleteDirectory(String pathDirector);
+
+    Boolean copyDirectory(String sourceDirectory, String targetDirectory);
 }

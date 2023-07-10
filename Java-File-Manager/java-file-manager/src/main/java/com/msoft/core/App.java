@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         FileUtil fileUtil = new FileUtil();
-        String path = "work/wait/register";
+        String path = "data/input/03";
         fileUtil.discovery(path, false);
     }
 }

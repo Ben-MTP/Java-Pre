@@ -1,5 +1,6 @@
-package com.msoft.core.crud;
+package com.msoft.core;
 
+import com.msoft.core.crud.FilesService;
 import com.msoft.core.crud.impl.FilesServiceImpl;
 
 public class FileManager {
