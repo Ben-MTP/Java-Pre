@@ -1,0 +1,13 @@
+# Sử dụng base image với JDK 1.8.0_202
+FROM adoptopenjdk/openjdk8
+
+# Sao chép file .jar từ thư mục target vào image
+COPY target/demo-0.0.1-SNAPSHOT.jar /docker-spring-boot.jar
+
+# Cổng mà ứng dụng lắng nghe
+EXPOSE 8099
+
+# Lệnh để chạy ứng dụng khi container được khởi chạy
+# Mặc định các tham số -Xms, -Xmx sẽ được chỉ định tự đông sao cho tận dụng tối đa tài nguyên của container
+# Nếu muốn chỉ định tham số có thể tham khảo: CMD ["java", "-Xms512m", "-Xmx1024m", "-jar", "/app.jar"]
+CMD ["java", "-jar", "/docker-spring-boot.jar"]
