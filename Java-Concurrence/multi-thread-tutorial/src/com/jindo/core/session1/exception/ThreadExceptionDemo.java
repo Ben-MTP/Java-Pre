@@ -11,7 +11,9 @@ public class ThreadExceptionDemo {
 
         Thread thread = new Thread(new WorkingThread());
 
-        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler(){
+        thread.setDaemon(false);
+
+        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 
             @Override
             public void uncaughtException(Thread t, Throwable e) {

@@ -7,7 +7,7 @@ package com.jindo.core.session3.block;
 public class ShareMemory {
 
     //synchronized
-    public void printData(String threadName) {
+    public synchronized void printData(String threadName) {
         synchronized (this) {
             for (int i = 1; i <= 20; i++) {
                 System.out.println(threadName + ": " + i);

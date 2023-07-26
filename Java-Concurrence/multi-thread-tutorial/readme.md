@@ -1,3 +1,10 @@
+## Tổ chức package trong dự án
+
+session1: Thực hiện tạo một Thread từ Runnable, khi đó sử dụng Thread này trong việc Random số liệu
+
+
+
+
 ## Multithreading
 
 [Multi-Thread](https://gpcoder.com/category/java-core/multi-thread/)

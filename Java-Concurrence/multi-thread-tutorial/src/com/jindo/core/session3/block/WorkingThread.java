@@ -6,7 +6,6 @@ package com.jindo.core.session3.block;
  */
 public class WorkingThread extends Thread {
 
-    private Thread thread;
     private ShareMemory shareMemory;
     private String threadName;
 
